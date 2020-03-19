@@ -32,10 +32,10 @@ console.log("Costo biglietto senza sconti €: " + costoBigliettoSenzaSconti);
 
 // Out-put
 if (etaPasseggero < 18){
-  document.getElementById("biglietto").innerHTML= "Il costo finale del tuo biglietto è: " + costoBigliettoSenzaSconti;
+  document.getElementById("biglietto").innerHTML= "Il costo finale del tuo biglietto scontato (Under18) del 20% è : " + costoBigliettoSenzaSconti;
 }
 
 else if (etaPasseggero > 65) {
-  document.getElementById("biglietto").innerHTML= "Pezzo di merda vecchiaccio della mal'ora: " + costoBigliettoSenzaSconti;
+  document.getElementById("biglietto").innerHTML= "Il costo finale del tuo biglietto scontato (Over65) del 40% è : " + costoBigliettoSenzaSconti;
 }
-else {document.getElementById("biglietto").innerHTML= "Sfigato ritenta sarai più fortunato non hai sconti prezzo pieno:( by Made in Sud) " + costoBigliettoSenzaSconti;}
+else {document.getElementById("biglietto").innerHTML= "Costo biglietto finale è :( by Made in Sud) " + costoBigliettoSenzaSconti;}
