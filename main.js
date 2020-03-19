@@ -29,15 +29,15 @@ costoBigliettoSenzaSconti = bigliettoScontiAnziani
 console.log("Km che utente percorre: " + kmDaPercorrere);
 console.log("Età passeggero: " + etaPasseggero);
 console.log("Costo biglietto senza sconti €: " + costoBigliettoSenzaSconti);
-console.log("Costo biglietto 20%: " + bigliettoScontoMinorenni);
-console.log("Costo biglietto 40%: " + bigliettoScontiAnziani);
+// console.log("Costo biglietto 20%: " + bigliettoScontoMinorenni);
+// console.log("Costo biglietto 40%: " + bigliettoScontiAnziani);
 
 // Out-put
 if (etaPasseggero < 18){
-  document.getElementById("biglietto").innerHTML= "Biglietto scontato (Under18) del 20% è : €" + costoBigliettoSenzaSconti;
+  document.getElementById("biglietto").innerHTML= "Biglietto scontato (Under18) del 20% è : €" + bigliettoScontoMinorenni;
 }
 
 else if (etaPasseggero > 65) {
-  document.getElementById("biglietto").innerHTML= "Biglietto scontato (Over65) del 40% è  : €" + costoBigliettoSenzaSconti;
+  document.getElementById("biglietto").innerHTML= "Biglietto scontato (Over65) del 40% è  : €" + bigliettoScontiAnziani;
 }
 else {document.getElementById("biglietto").innerHTML= "Costo biglietto finale è : €" + costoBigliettoSenzaSconti;}
