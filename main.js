@@ -10,11 +10,11 @@ var costoBigliettoSenzaSconti = 0.21 * kmDaPercorrere;
 // Biglieto con sconto
 
 // 20% di sconto (Minorenni)
-var bigliettoScontoMinorenni = ((costoBigliettoSenzaSconti * 100) / 120);
+var bigliettoScontoMinorenni = ((costoBigliettoSenzaSconti * 80) / 100);
 
 
 // 40% di sconto (Over 65)
-var bigliettoScontiAnziani = (costoBigliettoSenzaSconti * 100) / 140;
+var bigliettoScontiAnziani = ((costoBigliettoSenzaSconti * 60) / 100);
 
 
 
